@@ -1,0 +1,29 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "此处填写RSS"
+  ],
+  "alias": "18.HDCITY城市",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "95",
+  "downloadLimit": "0",
+  "category": "HDCITY",
+  "id": "f9c04484",
+  "sameServerClients": []
+}

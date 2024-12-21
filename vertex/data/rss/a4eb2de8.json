@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": true,
+  "scrapeHr": true,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "此处填写RSS"
+  ],
+  "alias": "59.FreeFarm自由农场(不可拆包刷，备案后标记为盒子刷，需V)",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "500",
+  "downloadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "category": "FreaFarm",
+  "id": "a4eb2de8",
+  "cookie": "此处填写COOKIE！！！！",
+  "sameServerClients": []
+}

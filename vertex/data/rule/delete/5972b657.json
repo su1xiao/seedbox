@@ -1,0 +1,16 @@
+{
+  "id": "5972b657",
+  "conditions": [
+    {
+      "key": "state",
+      "compareType": "equals",
+      "value": "stalledDL"
+    }
+  ],
+  "alias": "3分钟不做种删除",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "180",
+  "used": true
+}

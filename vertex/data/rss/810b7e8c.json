@@ -1,0 +1,33 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [
+    "65141a62"
+  ],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "alias": "30.Btschool学校（可大盘keep刷）",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "22",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "BTS",
+  "id": "810b7e8c",
+  "sameServerClients": [],
+  "paused": true
+}

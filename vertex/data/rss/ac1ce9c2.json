@@ -1,0 +1,30 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "此处替换RSS"
+  ],
+  "alias": "53.马杀鸡",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "70",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "MSJ",
+  "id": "ac1ce9c2",
+  "sameServerClients": []
+}

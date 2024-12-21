@@ -1,0 +1,33 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [
+    "65141a62"
+  ],
+  "reseedClients": [],
+  "rssUrls": [
+    "此处填写RSS"
+  ],
+  "alias": "56.CarPT车站(拆包刷,可大盘keep保种刷)",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "25",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "Car",
+  "paused": true,
+  "id": "4c1d0bbe",
+  "sameServerClients": []
+}

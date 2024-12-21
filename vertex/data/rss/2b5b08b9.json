@@ -1,0 +1,32 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": true,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "alias": "31.NicePT老师（抓免刷,不要改动限速）",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "12",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "NICEPT",
+  "id": "2b5b08b9",
+  "sameServerClients": [],
+  "paused": true,
+  "cookie": "此处填写COOKIE ！！！！！！！"
+}

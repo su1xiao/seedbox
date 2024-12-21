@@ -1,0 +1,30 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "*/6 * * * *",
+  "addCountPerHour": "",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "此处填写RSS"
+  ],
+  "alias": "50.AGSV末日种子库(备案，正价盒子刷，限制跳车)",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "80",
+  "downloadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "category": "AGSV",
+  "id": "595b9fca",
+  "sameServerClients": []
+}

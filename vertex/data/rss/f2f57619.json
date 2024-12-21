@@ -1,0 +1,30 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "此处填写RSS"
+  ],
+  "alias": "17.beiyang北洋园(按体积算HR时间，大盘刷手动删除)",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "85",
+  "downloadLimit": "0",
+  "category": "beiyang,keep",
+  "id": "f2f57619",
+  "uploadLimitUnit": "MiB",
+  "sameServerClients": []
+}

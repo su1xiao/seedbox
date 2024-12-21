@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入RSS"
+  ],
+  "alias": "14.HDArea高清视界，好大(可抓免，但是刷的少)",
+  "clientSortBy": "uploadSpeed",
+  "cookie": "",
+  "uploadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "HDA",
+  "id": "88f0055b",
+  "sameServerClients": []
+}

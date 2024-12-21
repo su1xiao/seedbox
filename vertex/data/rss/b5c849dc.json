@@ -1,0 +1,29 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "此处替换RSS"
+  ],
+  "alias": "54.南洋(正价)",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "100",
+  "downloadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "id": "b5c849dc",
+  "sameServerClients": []
+}

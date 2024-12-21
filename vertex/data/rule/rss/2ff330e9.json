@@ -1,0 +1,14 @@
+{
+  "id": "2ff330e9",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "-RL"
+    }
+  ],
+  "alias": "红叶去除官种",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}",
+  "used": false
+}

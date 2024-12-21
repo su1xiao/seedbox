@@ -1,0 +1,13 @@
+{
+  "id": "65141a62",
+  "conditions": [
+    {
+      "key": "size",
+      "compareType": "smaller",
+      "value": "15*1024*1024*1024"
+    }
+  ],
+  "alias": "种子小于15g",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}"
+}

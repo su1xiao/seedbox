@@ -1,0 +1,14 @@
+{
+  "id": "8253f487",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "UBits"
+    }
+  ],
+  "alias": "Ubits专用-跳HR不RSS官种",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}",
+  "used": false
+}

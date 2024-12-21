@@ -1,0 +1,27 @@
+{
+  "acceptRules": [],
+  "clientArr": [
+    "b8709780"
+  ],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "id": "cba32b4b",
+  "alias": "46.Hdatmos阿童木(VIP可提速110M)",
+  "uploadLimit": "65",
+  "uploadLimitUnit": "MiB",
+  "downloadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "maxSleepTime": "600",
+  "addCountPerHour": "20",
+  "cron": "* * * * *",
+  "skipSameTorrent": true,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "clientSortBy": "uploadSpeed",
+  "enable": false,
+  "pushNotify": false,
+  "sameServerClients": []
+}
