@@ -1,9 +1,0 @@
-[2024-12-21T22:20:00.554][INFO console] 28 (app/common/Client.js 75:12) 下载器 0-NC|Lin 初始化完毕
-[2024-12-21T22:20:00.784][INFO console] 28 (vertex/app/app.js 165:12) HTTP 服务器启动, 监听端口:  3000
-[2024-12-21T22:20:01.550][INFO console] 28 (app/libs/redis.js 14:10) Redis connected!
-[2024-12-21T22:20:02.296][INFO console] 28 (app/common/Client.js 239:14) 下载器 0-NC|Lin 登录成功
-[2024-12-21T22:21:04.368][INFO console] 27 (app/common/Client.js 75:12) 下载器 0-NC|Lin 初始化完毕
-[2024-12-21T22:21:04.529][INFO console] 27 (vertex/app/app.js 165:12) HTTP 服务器启动, 监听端口:  3000
-[2024-12-21T22:21:04.869][INFO console] 27 (app/libs/redis.js 14:10) Redis connected!
-[2024-12-21T22:21:05.222][INFO console] 27 (app/common/Client.js 239:14) 下载器 0-NC|Lin 登录成功
-[2024-12-21T22:23:03.189][INFO console] 27 (app/controller/User.js 12:14) 登录成功, IP: 47.76.72.45
