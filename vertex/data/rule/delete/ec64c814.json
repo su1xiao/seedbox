@@ -1,0 +1,21 @@
+{
+  "id": "ec64c814",
+  "conditions": [
+    {
+      "key": "progress",
+      "compareType": "smaller",
+      "value": "1"
+    },
+    {
+      "key": "category",
+      "compareType": "equals",
+      "value": "CAT"
+    }
+  ],
+  "alias": "拒绝删种-猫专用",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "pause": false,
+  "used": false
+}

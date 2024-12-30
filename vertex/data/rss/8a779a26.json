@@ -1,0 +1,33 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "04.柠檬🚩",
+  "clientSortBy": "leechingCount",
+  "uploadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "downloadLimitUnit": "MiB",
+  "id": "8a779a26",
+  "sameServerClients": [],
+  "cookie": "",
+  "category": "nm",
+  "sleepTime": "",
+  "pushTorrentFile": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "10552296",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "BluRay"
+    },
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "MTeam,SLIPSTREAM,LPCM"
+    },
+    {
+      "key": "name",
+      "compareType": "notContain",
+      "value": "Remux,remux,-HDH,@HDH,UBits,OurBits,Audies,@TTG,HDS,@XY,CiNEPHiLES,FRDS"
+    }
+  ],
+  "alias": "岛3",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}"
+}

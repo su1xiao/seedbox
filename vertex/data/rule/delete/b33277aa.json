@@ -1,0 +1,25 @@
+{
+  "id": "b33277aa",
+  "conditions": [
+    {
+      "key": "ratio3",
+      "compareType": "bigger",
+      "value": "3.1"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "keep,KEEP"
+    },
+    {
+      "key": "category",
+      "compareType": "contain",
+      "value": "HH,SKY"
+    }
+  ],
+  "alias": "NC-分享率3倍删种-憨憨-天空",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "used": true
+}

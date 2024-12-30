@@ -1,0 +1,13 @@
+{
+  "id": "f3db9e58",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "CHD,OneHD"
+    }
+  ],
+  "alias": "岛1",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}"
+}

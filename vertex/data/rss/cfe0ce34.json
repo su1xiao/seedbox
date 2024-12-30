@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "100",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填上你的 RSS 连接"
+  ],
+  "alias": "53.阿童木",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "70",
+  "uploadLimitUnit": "MiB",
+  "downloadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "ATM",
+  "id": "cfe0ce34",
+  "sameServerClients": []
+}

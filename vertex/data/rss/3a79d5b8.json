@@ -1,0 +1,33 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "9999999999",
+  "skipSameTorrent": false,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [
+    "45616bc1"
+  ],
+  "reseedClients": [],
+  "rssUrls": [
+    "把下面抓取免费勾选下，然后把 cookie 清空，取消勾选，保存"
+  ],
+  "alias": "29.猪猪（注意HR）过考才能刷 rss只勾选大众区",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "35",
+  "downloadLimit": "0",
+  "category": "PIG",
+  "id": "3a79d5b8",
+  "sameServerClients": [],
+  "cookie": "",
+  "uploadLimitUnit": "MiB"
+}

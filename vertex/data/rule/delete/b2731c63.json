@@ -1,0 +1,30 @@
+{
+  "id": "b2731c63",
+  "conditions": [
+    {
+      "key": "completedTime",
+      "compareType": "bigger",
+      "value": "1200"
+    },
+    {
+      "key": "ratio3",
+      "compareType": "smaller",
+      "value": "4.1"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "1*1024*1024"
+    },
+    {
+      "key": "category",
+      "compareType": "contain",
+      "value": "SD"
+    }
+  ],
+  "alias": "不可说2-低速低比率",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "used": true
+}

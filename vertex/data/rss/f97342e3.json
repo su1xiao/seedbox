@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "*/2 23-23,0-8 * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "自己的RSS！"
+  ],
+  "alias": "051.憨憨保种区",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "80",
+  "downloadLimit": "0",
+  "category": "HH",
+  "id": "f97342e3",
+  "sameServerClients": [],
+  "uploadLimitUnit": "MiB",
+  "cookie": "填写自己的Cookie！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！"
+}

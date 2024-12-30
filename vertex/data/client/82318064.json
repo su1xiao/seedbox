@@ -1,0 +1,41 @@
+{
+  "id": "82318064",
+  "alias": "06-不可说",
+  "host": "",
+  "username": "felensssd",
+  "password": "ptbox:paradox1204c",
+  "port": "",
+  "enable": true,
+  "pushNotify": false,
+  "pushMonitor": false,
+  "spaceAlarm": false,
+  "firstLastPiecePrio": false,
+  "cron": "*/4 * * * * *",
+  "autoDeleteCron": "* * * * *",
+  "autoReannounce": true,
+  "autoDelete": true,
+  "deleteRules": [
+    "b1171681",
+    "b2731c63",
+    "bcc371c4"
+  ],
+  "type": "qBittorrent",
+  "clientUrl": "http://127.0.0.1:18230",
+  "minFreeSpace": "",
+  "minFreeSpaceUnit": "GiB",
+  "sameServerClients": [
+    "b8709780",
+    "904fddf0",
+    "cbba4973",
+    "b29e5bb5",
+    "82318064"
+  ],
+  "used": true,
+  "status": true,
+  "allTimeUpload": 0,
+  "allTimeDownload": 0,
+  "uploadSpeed": 0,
+  "downloadSpeed": 0,
+  "leechingCount": 0,
+  "seedingCount": 0
+}

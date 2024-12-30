@@ -1,0 +1,32 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [
+    "81cfe020"
+  ],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "alias": "03.观众（需开V）🚩",
+  "clientSortBy": "leechingCount",
+  "uploadLimit": "110",
+  "downloadLimit": "0",
+  "category": "AUD",
+  "id": "4f5c0eda",
+  "sameServerClients": [],
+  "uploadLimitUnit": "MiB"
+}

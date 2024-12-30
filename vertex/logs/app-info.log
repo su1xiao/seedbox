@@ -1,0 +1,5 @@
+[2024-12-30T15:43:38.351][INFO console] 23 (app/common/Client.js 75:12) 下载器 06-不可说 初始化完毕
+[2024-12-30T15:43:38.375][INFO console] 23 (app/common/Client.js 75:12) 下载器 01-NC 初始化完毕
+[2024-12-30T15:43:38.381][INFO console] 23 (vertex/app/app.js 165:12) HTTP 服务器启动, 监听端口:  3000
+[2024-12-30T15:43:38.442][INFO console] 23 (app/libs/redis.js 14:10) Redis connected!
+[2024-12-30T15:45:50.456][INFO console] 23 (app/controller/User.js 12:14) 登录成功, IP: 1.26.37.118

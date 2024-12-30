@@ -1,0 +1,36 @@
+{
+  "clientArr": [
+    "82318064"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [
+    "0cd5f659"
+  ],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "alias": "08.不可说（不能刷）",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "90",
+  "downloadLimit": "0",
+  "category": "SD",
+  "id": "33e7579c",
+  "sameServerClients": [],
+  "maxClientUploadSpeedUnit": "MiB",
+  "maxClientUploadSpeed": "95",
+  "maxClientDownloadSpeed": "0",
+  "maxClientDownloadSpeedUnit": "MiB",
+  "uploadLimitUnit": "MiB"
+}

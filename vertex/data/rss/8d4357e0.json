@@ -1,0 +1,32 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": true,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "https://ptchdbits.co/torrentrss.php?rows=10&renewseed=1&linktype=dl&passkey="
+  ],
+  "alias": "09.彩虹岛（后面添加自己的passkey 需要填写cookie）🚩",
+  "clientSortBy": "leechingCount",
+  "uploadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "downloadLimitUnit": "MiB",
+  "category": "CHD",
+  "id": "8d4357e0",
+  "sameServerClients": [],
+  "pushTorrentFile": false,
+  "cookie": "1"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dd8f3e42",
+  "conditions": [
+    {
+      "key": "ratio3",
+      "compareType": "bigger",
+      "value": "3.5"
+    },
+    {
+      "key": "category",
+      "compareType": "contain",
+      "value": "MTV"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "keep"
+    }
+  ],
+  "alias": "馒头三倍删种",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "used": true
+}

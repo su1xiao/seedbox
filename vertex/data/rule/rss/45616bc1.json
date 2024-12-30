@@ -1,0 +1,13 @@
+{
+  "id": "45616bc1",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "3D"
+    }
+  ],
+  "alias": "猪猪拒绝HR",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}"
+}

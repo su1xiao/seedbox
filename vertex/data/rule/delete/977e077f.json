@@ -1,0 +1,36 @@
+{
+  "id": "977e077f",
+  "conditions": [
+    {
+      "key": "downloadSpeed",
+      "compareType": "bigger",
+      "value": "1024"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "10*1024"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "keep"
+    },
+    {
+      "key": "state",
+      "compareType": "equals",
+      "value": "downloading"
+    },
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0.01"
+    }
+  ],
+  "alias": "1222-黑车（只有下载没有上传）",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "300",
+  "deleteNum": "1"
+}

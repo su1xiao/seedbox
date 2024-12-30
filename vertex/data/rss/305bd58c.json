@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "100",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "这里填上你的 RSS 地址"
+  ],
+  "alias": "52.肉丝",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "80",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "downloadLimitUnit": "MiB",
+  "category": "RS",
+  "id": "305bd58c",
+  "sameServerClients": []
+}

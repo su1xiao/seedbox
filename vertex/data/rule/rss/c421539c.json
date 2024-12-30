@@ -1,0 +1,13 @@
+{
+  "id": "c421539c",
+  "conditions": [
+    {
+      "key": "",
+      "compareType": "",
+      "value": ""
+    }
+  ],
+  "alias": "cat",
+  "type": "javascript",
+  "code": "(torrent) => {\nconst { id } = torrent;\nif (id < 515236) {\nreturn true;\n}\nreturn false;\n};"
+}

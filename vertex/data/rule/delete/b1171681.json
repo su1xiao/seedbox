@@ -1,0 +1,25 @@
+{
+  "id": "b1171681",
+  "conditions": [
+    {
+      "key": "ratio3",
+      "compareType": "bigger",
+      "value": "4.1"
+    },
+    {
+      "key": "completedTime",
+      "compareType": "bigger",
+      "value": "3600"
+    },
+    {
+      "key": "category",
+      "compareType": "contain",
+      "value": "SD"
+    }
+  ],
+  "alias": "不可说1-分享4完成60",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "used": true
+}

@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "300",
+  "skipSameTorrent": true,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "100",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "49.2xfree",
+  "uploadLimit": "15",
+  "uploadLimitUnit": "MiB",
+  "downloadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "2XFREE",
+  "clientSortBy": "uploadSpeed",
+  "id": "ad8b3928",
+  "sameServerClients": []
+}

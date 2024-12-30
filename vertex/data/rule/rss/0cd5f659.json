@@ -1,0 +1,13 @@
+{
+  "id": "0cd5f659",
+  "conditions": [
+    {
+      "key": "",
+      "compareType": "",
+      "value": ""
+    }
+  ],
+  "alias": "不可说-猫选种",
+  "type": "javascript",
+  "code": "(torrent) => {\n    const diskSpace = 300 * 1024 * 1024 * 1024; \n    const uploadLimit = 95 * 1024 * 1024; \n    const downloadLimit = 100 * 1024 * 1024; \n    const { size,name,hash,id,url,link } = torrent;\n    logger.info(\"获取到种子：\" + name);\n    logger.info(\"当前种子大小：\" + (size/1024/1024/1024).toFixed(2) + \"GB\");\n  \n    for (const key of Object.keys(global.runningClient)) { \n    \n        const client = global.runningClient[key];\n    \n        let allTorrentSize = 0;\n        \n            if (client.status == 'false'){\n            }\n    \n            else{\n    \n    \n                    for (let i = 0; i < client.maindata.torrents.length; i++) {\n    \n                        allTorrentSize += client.maindata.torrents[i].size;\n                    }\n                        const availableDiskSpace = diskSpace - allTorrentSize;\n    \n                        logger.info(\"下载器：\" + client.alias + \"中所有种子大小\" + (allTorrentSize/1024/1024/1024).toFixed(2) + \"GB\");\n                        logger.info(\"下载器：\" + client.alias + \"磁盘可用空间：\" + (availableDiskSpace/1024/1024/1024).toFixed(2) + \"GB\");\n    \n                            if (availableDiskSpace > size){\n    \n                                logger.info(\"剩余空间满足，添加种子！\");\n    \n                                client.addTorrent(torrent.url, torrent.hash, false, uploadLimit, downloadLimit, _torrent.savePath, this.category, this.autoTMM, this.paused);\n    \n                                util.runRecord('INSERT INTO torrents (hash, name, size, rss_id, link, category, record_time, add_time, record_type, record_note) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',\n          [torrent.hash, torrent.name, torrent.size, this.id, torrent.link, this.category, moment().unix(), moment().unix(), 1, '添加种子']);\n                                \n                                break;\n                            }\n    \n                            else{\n    \n                                    logger.info(\"剩余空间不足，跳过该种子！\");\n                               \n                                    \n                        }\n    \n                }\n    \n            }\n    \n    return false;\n    }\n    \n    "
+}

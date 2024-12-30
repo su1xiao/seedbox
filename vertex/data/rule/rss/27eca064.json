@@ -1,0 +1,13 @@
+{
+  "id": "27eca064",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "bluR-ray"
+    }
+  ],
+  "alias": "岛4",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}"
+}

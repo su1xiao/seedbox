@@ -1,0 +1,34 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "*/2 * * * *",
+  "addCountPerHour": "20",
+  "pushNotify": false,
+  "acceptRules": [
+    "0cd5f659"
+  ],
+  "rejectRules": [
+    "c421539c"
+  ],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "11.猫（320g盒子单刷，不要和其他站一起刷）",
+  "uploadLimit": "0",
+  "downloadLimit": "0",
+  "category": "CAT",
+  "clientSortBy": "leechingCount",
+  "id": "f6f98712",
+  "sameServerClients": [],
+  "pushTorrentFile": true,
+  "maxClientDownloadCount": "0"
+}
